@@ -27,7 +27,7 @@ def text_message(file_name, phone_number):
 	for line in lines:
 		line.strip()
 		send_objects.append(line)
-	print(send_objects)
+	return line
 
 	send_message(send_objects, phone_number)
 
